@@ -16,6 +16,7 @@ public class MybatisUtils {
         try {
             String resource = "mybatis-config.xml";
             sqlSessionFactory = new SqlSessionFactoryBuilder().build(Resources.getResourceAsStream(resource));
+            System.out.println("read config-----------------------");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
