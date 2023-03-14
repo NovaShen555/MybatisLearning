@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--命名空间，绑定一个mapper接口-->
+<mapper namespace="top.novashen.dao.UserMapper">
+
+    <!--type的意思是将结果映射为这个类型-->
+    <resultMap id="UserMap" type="top.novashen.pojo.User">
+        <id property="password" column="pwd"/>
+<!--        <id property="id" column="id"/>-->
+<!--        <id property="name" column="name"/>-->
+    </resultMap>
+    
+    <select id="getUserById" resultType="top.novashen.pojo.User" parameterType="int" resultMap="UserMap">
+        select * from user where id = #{id}
+    </select>
+
+
+</mapper>
