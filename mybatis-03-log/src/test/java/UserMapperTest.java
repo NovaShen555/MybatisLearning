@@ -20,6 +20,11 @@ public class UserMapperTest {
 
     @Test
     public void testLog4j(){
+
+
+
+
+
         logger.info("[INFO]Enter function");
         logger.debug("[DEBUG]Enter debug");
         logger.error("[ERROR]Enter error");
