@@ -7,7 +7,7 @@
 
     <!--type的意思是将结果映射为这个类型-->
     <resultMap id="UserMap" type="top.novashen.pojo.User">
-        <id property="password" column="pwd"/>
+        <id property="password" column="password"/>
 <!--        <id property="id" column="id"/>-->
 <!--        <id property="name" column="name"/>-->
     </resultMap>

@@ -24,9 +24,14 @@
         </environment>
     </environments>
 
-    <!--mapper，映射，读取某个配置文件进行使用-->
+<!--    &lt;!&ndash;mapper，映射，读取某个配置文件进行使用&ndash;&gt;-->
+<!--    <mappers>-->
+<!--        <mapper resource="UserMapper.xml"/>-->
+<!--    </mappers>-->
+
     <mappers>
-        <mapper resource="UserMapper.xml"/>
+        <mapper class="top.novashen.dao.UserMapper"/>
     </mappers>
+
 
 </configuration>
