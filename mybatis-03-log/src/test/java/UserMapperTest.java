@@ -2,6 +2,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.Test;
 import top.novashen.dao.UserMapper;
+import top.novashen.pojo.User;
 import top.novashen.utils.MybatisUtils;
 
 public class UserMapperTest {
@@ -14,6 +15,16 @@ public class UserMapperTest {
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
 
         System.out.println(mapper.getUserById(1));
+
+        sqlSession.close();
+    }
+
+    @Test
+    public void t2(){
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+
+        System.out.println(mapper.insertUser(new User(45,"asd","dddss")));
 
         sqlSession.close();
     }

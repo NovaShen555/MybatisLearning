@@ -55,3 +55,60 @@
 [DEBUG][I LOVE HLT][23-03-16][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@54e7df6a]
 [DEBUG][I LOVE HLT][23-03-16][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@54e7df6a]
 [DEBUG][I LOVE HLT][23-03-16][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1424482154 to pool.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1072506992.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3fed2870]
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.getUserById]==>  Preparing: select * from user where id = ?
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.getUserById]==> Parameters: 1(Integer)
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.getUserById]<==      Total: 1
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3fed2870]
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3fed2870]
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1072506992 to pool.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 970865974.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@39de3d36]
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.insertUser]==>  Preparing: insert into user(id,name,pwd) values(?,?,?)
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.insertUser]==> Parameters: 45(Integer), asd(String), dddss(String)
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.insertUser]<==    Updates: 1
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@39de3d36]
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@39de3d36]
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@39de3d36]
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 970865974 to pool.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 970865974.
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.insertUser]==>  Preparing: insert into user(id,name,pwd) values(?,?,?)
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.insertUser]==> Parameters: 45(Integer), asd(String), dddss(String)
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.insertUser]<==    Updates: 1
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@39de3d36]
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 970865974 to pool.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 941836856.
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.getUserById]==>  Preparing: select * from user where id = ?
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.getUserById]==> Parameters: 1(Integer)
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.UserMapper.getUserById]<==      Total: 1
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@38234a38]
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 941836856 to pool.
