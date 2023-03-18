@@ -16,4 +16,10 @@ public class Testtt {
             System.out.println(student);
         }
     }
+    @Test
+    public void t1(){
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+        StudentMapper mapper = sqlSession.getMapper(StudentMapper.class);
+        System.out.println(mapper.getStudentById(1));
+    }
 }

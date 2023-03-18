@@ -26,3 +26,17 @@
 [DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getStudent]==>  Preparing: select * from student
 [DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getStudent]==> Parameters: 
 [DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getStudent]<==      Total: 5
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-18][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1866229258.
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getStudentById]==>  Preparing: select * from student where id=?
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getStudentById]==> Parameters: 1(Integer)
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getTeacherById]====>  Preparing: select * from teacher where id=?
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getTeacherById]====> Parameters: 1(Integer)
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getTeacherById]<====      Total: 1
+[DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getStudentById]<==      Total: 1
