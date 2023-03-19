@@ -9,13 +9,28 @@
         select * from student
     </select>
 
+<!--    <resultMap id="StudentBy" type="top.novashen.pojo.Student">-->
+<!--        <association property="teacher" column="tid" javaType="top.novashen.pojo.Teacher" select="getTeacherById"/>-->
+<!--    </resultMap>-->
+<!--    <select id="getStudentById" resultMap="StudentBy">-->
+<!--        select * from student where id=#{id}-->
+<!--    </select>-->
+<!--    <select id="getTeacherById" resultType="top.novashen.pojo.Teacher">-->
+<!--        select * from teacher where id=#{tid}-->
+<!--    </select>-->
+
     <resultMap id="StudentBy" type="top.novashen.pojo.Student">
-        <association property="teacher" column="tid" javaType="top.novashen.pojo.Teacher" select="getTeacherById"/>
+        <association property="teacher" javaType="top.novashen.pojo.Teacher">
+            <result column="tid" property="id"/>
+            <result column="tn" property="name"/>
+        </association>
     </resultMap>
+
     <select id="getStudentById" resultMap="StudentBy">
-        select * from student where id=#{id}
+        select s.id id,s.name sn,t.id tid,t.name tn from student s,teacher t
+        where s.id = #{id} and s.tid = t.id
     </select>
-    <select id="getTeacherById" resultType="top.novashen.pojo.Teacher">
-        select * from teacher where id=#{tid}
-    </select>
+
+
+
 </mapper>

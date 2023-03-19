@@ -40,3 +40,14 @@
 [DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getTeacherById]====> Parameters: 1(Integer)
 [DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getTeacherById]<====      Total: 1
 [DEBUG][I LOVE HLT][23-03-18][top.novashen.dao.StudentMapper.getStudentById]<==      Total: 1
+[DEBUG][I LOVE HLT][23-03-19][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-19][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-19][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-19][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-19][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-19][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-19][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-19][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1659840424.
+[DEBUG][I LOVE HLT][23-03-19][top.novashen.dao.StudentMapper.getStudentById]==>  Preparing: select s.id id,s.name sn,t.id tid,t.name tn from student s,teacher t where s.id = ? and s.tid = t.id
+[DEBUG][I LOVE HLT][23-03-19][top.novashen.dao.StudentMapper.getStudentById]==> Parameters: 1(Integer)
+[DEBUG][I LOVE HLT][23-03-19][top.novashen.dao.StudentMapper.getStudentById]<==      Total: 1
