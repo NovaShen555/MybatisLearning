@@ -6,4 +6,42 @@
 <mapper namespace="top.novashen.dao.TeacherMapper">
 
 
+<!--    <resultMap id="TeacherBy" type="top.novashen.pojo.Teacher">-->
+<!--        <result property="id" column="tid"/>-->
+<!--        <result property="name" column="tname"/>-->
+<!--        <collection property="studentList" ofType="top.novashen.pojo.Student">-->
+<!--            <result property="id" column="sid"/>-->
+<!--            <result property="name" column="sname"/>-->
+<!--            <result property="tid" column="tid"/>-->
+<!--        </collection>-->
+<!--    </resultMap>-->
+
+<!--    <select id="getTeacherById" resultMap="TeacherBy">-->
+<!--        select t.id tid,t.name tname,s.id sid,s.name sname-->
+<!--        from teacher t,student s-->
+<!--        where t.id = s.tid-->
+<!--        and t.id = #{id}-->
+<!--    </select>-->
+
+
+    <resultMap id="TeacherBy" type="top.novashen.pojo.Teacher">
+        <collection property="studentList" column="tid=id" ofType="top.novashen.pojo.Student" select="getStudent"/>
+    </resultMap>
+
+    <select id="getTeacherById" resultMap="TeacherBy">
+        select * from teacher where id = #{id}
+    </select>
+
+    <select id="getStudent" resultType="top.novashen.pojo.Student">
+        select * from student where tid = #{tid}
+    </select>
+
+
+
+
+
+
+
+
+
 </mapper>

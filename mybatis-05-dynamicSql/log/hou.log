@@ -1,0 +1,117 @@
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1962266146.
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]==>  Preparing: insert into blog (id, title, author, create_time, views) values (?,?,?,?,?);
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1783966110.
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]==>  Preparing: insert into blog (id, title, author, create_time, views) values (?,?,?,?,?);
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1783966110.
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]==>  Preparing: insert into blog (id, title, author, create_time, views) values (?,?,?,?,?);
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]==> Parameters: 26cbb67b-d597-4c5e-b5d6-d892e3533bc1(String), Mybatis如此简单(String), 狂神说(String), 2023-03-20 19:23:19.896(Timestamp), 9999(Integer)
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]<==    Updates: 1
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]==>  Preparing: insert into blog (id, title, author, create_time, views) values (?,?,?,?,?);
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]==> Parameters: 3286b49b-138e-4733-8352-561effb32c0b(String), Java如此简单(String), 狂神说(String), 2023-03-20 19:23:19.896(Timestamp), 9999(Integer)
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]<==    Updates: 1
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]==>  Preparing: insert into blog (id, title, author, create_time, views) values (?,?,?,?,?);
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]==> Parameters: c81435b7-f2ce-4716-8e26-2adaa0633c23(String), Spring如此简单(String), 狂神说(String), 2023-03-20 19:23:19.896(Timestamp), 9999(Integer)
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]<==    Updates: 1
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]==>  Preparing: insert into blog (id, title, author, create_time, views) values (?,?,?,?,?);
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]==> Parameters: 3087cb38-68c6-4b8c-9849-c98b5fef4930(String), 微服务如此简单(String), 狂神说(String), 2023-03-20 19:23:19.896(Timestamp), 9999(Integer)
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.addBlog]<==    Updates: 1
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6a55299e]
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1783966110 to pool.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 75470648.
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]==>  Preparing: select * from blog
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]==> Parameters: 
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]<==      Total: 4
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 857394605.
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]==>  Preparing: select * from blog where 1=1 and author = ?
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]==> Parameters: 狂神说(String)
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]<==      Total: 3
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 857394605.
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]==>  Preparing: select * from blog where 1=1 and author = ?
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]==> Parameters: 狂神说(String)
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]<==      Total: 3
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 843710487.
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]==>  Preparing: select * from blog where 1=1 and title = ? and author = ?
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]==> Parameters: 微服务如此简单(String), 狂神说(String)
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByIf]<==      Total: 1
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 170052458.
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByChoose]==>  Preparing: select * from blog where 1=1 and author = ?
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByChoose]==> Parameters: 狂神说(String)
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByChoose]<==      Total: 3
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1216198248.
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByChoose]==>  Preparing: select * from blog where 1=1 and title = ?
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByChoose]==> Parameters: 微服务如此简单(String)
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByChoose]<==      Total: 1
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][I LOVE HLT][23-03-20][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1216198248.
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByChoose]==>  Preparing: select * from blog where 1=1 and title = ?
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByChoose]==> Parameters: 微服务如此简单(String)
+[DEBUG][I LOVE HLT][23-03-20][top.novashen.dao.BlogMapper.queryBlogByChoose]<==      Total: 1

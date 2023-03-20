@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/mybatis-03-log/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-04-multi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-04-multi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-05-dynamicSql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-05-dynamicSql/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

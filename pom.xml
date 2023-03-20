@@ -13,6 +13,7 @@
         <module>mybatis-02-config</module>
         <module>mybatis-03-log</module>
         <module>mybatis-04-multi</module>
+        <module>mybatis-05-dynamicSql</module>
     </modules>
 
     <properties>
@@ -42,7 +43,6 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.9.2</version>
-            <scope>test</scope>
         </dependency>
 
 <!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core &ndash;&gt;-->

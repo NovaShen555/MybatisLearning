@@ -11,4 +11,5 @@
 ### 3.19
 学习了一对多和多对一
 
-
+### 3.20
+学习了动态sql的if choose where trim set标签的使用
