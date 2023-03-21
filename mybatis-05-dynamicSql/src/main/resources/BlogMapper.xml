@@ -34,8 +34,8 @@
                 //other ...
             </otherwise>
         </choose>
-        <foreach collection="" >
-
+        <foreach collection="user.entrySet()" item="value" index="key" separator="," open="(" close=")">
+            (#{key},#{value})
         </foreach>
     </select>
 

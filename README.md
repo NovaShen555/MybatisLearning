@@ -13,3 +13,8 @@
 
 ### 3.20
 学习了动态sql的if choose where trim set标签的使用
+
+### 3.21
+学习了foreach 缓存
+
+# 完结撒花！
